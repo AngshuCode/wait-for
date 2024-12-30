@@ -1,0 +1,66 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for body */
+  body {
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Styling the container */
+  .container {
+    text-align: center;
+    background-color: #f0f0f09c;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 15px 20px  rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .countdown {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  #countdown {
+    font-size: 2.5rem;
+    color: #007aff;
+    font-weight: 500;
+    margin-top: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+  }
+
+  #countdown:hover {
+    color: #ff2d55;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {}
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    .container {
+        padding: 40px;
+      }
+    
+      #countdown {
+        font-size: 2rem;
+    }
+      
+    
